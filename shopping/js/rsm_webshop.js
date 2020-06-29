@@ -7,7 +7,7 @@ function do_click(id){
 function do_search(){
 	var k=document.search.keyword.value
 	if (k.length<2)
-		alert('¶Ô²»Æð£¬¹Ø¼ü×ÖÌ«¶Ì');
+		alert('¹Ø¼ü×ÖÌ«¶Ì£¬ÎÞ·¨ËÑË÷Å¶');
 	else
 		document.search.submit();
 }

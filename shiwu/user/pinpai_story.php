@@ -14,7 +14,7 @@
 
         <link rel="stylesheet" type="text/css" href="../CSS/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../CSS/demoadpacks.css">
-<title>YBLM</title>
+<title>食尚</title>
 </head>
 <body>
 <?php

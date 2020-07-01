@@ -35,12 +35,12 @@
     if($n>0)
     {
     	echo "<script language='javascript'>";
-		echo "alert('动态发布成功');";
+		echo "alert('产品发布成功');";
 		echo "window.location.href='backstage.php' ";
 		echo "</script>";
     }else{
     	echo "<script language='javascript'>";
-		echo "alert('动态发布失败');";
+		echo "alert('产品发布失败');";
 		echo "window.location.href='backstage.php' ";
 		echo "</script>";
     }

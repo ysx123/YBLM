@@ -14,7 +14,7 @@
 
         <link rel="stylesheet" type="text/css" href="../CSS/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../CSS/demoadpacks.css">
-<title>食尚</title>
+<title>YBLM</title>
 </head>
 <body>
 <?php
@@ -25,22 +25,22 @@
 
 <div id="pinpai_main">
 	<div class="b_pic"><p class="b_name">简介</p></div>
-	<div class="more"><p>简介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加盟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系我们</p></div>
+
 
 	<div id="guanyu">
 		<div class="guanyu_main">
 			<div class="main_left"></div>
 			<div class="main_right">
-				<p class="me">关于我们</p>
-				<p class="hope" style="margin-top:18%; margin-left:2%;"	>优贝乐母健康食品，希望带着“分享优质食材”的坚持。</p>
-				<p class="hope" style="margin-top:5%;margin-left:12%;">为人们提供一口感动舌尖的美味，更为增添一份撼动心灵的人情。</p>
-				<p class="hope" style="margin-left:25%;">一份菜品、一口美味，都是生活的酸甜苦辣。</p>
-				<p class="hope" style="margin-top:12%;margin-left:31%;">健康食品，创造菜品美味和情味！</p>
+
+				<p class="hope" style="margin-top:18%; margin-left:2%;"	>优贝乐母健康食品，希望带着“给宝宝最好的饮食推荐”的坚持。</p>
+				<p class="hope" style="margin-top:5%;margin-left:12%;">为宝宝们提供一口感动舌尖的美味，更为宝宝增添了足够的营养素和能量。</p>
+				<p class="hope" style="margin-left:25%;">一份菜品、一口美味，都是成长的助力。</p>
+				<p class="hope" style="margin-top:8%;margin-left:31%;">健康食品，创造菜品美味和情味！</p>
 				<p class="hope" style="margin-left:37%;">在好吃之上，更讲求营养</p>
 				<p class="hope" style="margin-left:37%;">在好看之上，更在乎健康</p>
 				<p class="hope" style="margin-left:33%;">在服务之上，更注重可持续发展</p>
 				<p class="hope" style="margin-left:19%;">不玩噱头，不谈情怀，做的就是关心母婴健康最本质的需求</p>
-				<p class="hope" style="margin-left:36%;">这就是食尚美味的人情味所在</p>
+				<p class="hope" style="margin-left:36%;">这就是优贝乐母的人情味所在</p>
 			</div>
 		</div>
 	</div>

@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="../CSS/head.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/backstage.css" />
 <script type="text/javascript" src="../JS/jquery.min.js"></script>
-<title>美食--加盟申请</title>
+<title>YBLM--加盟申请</title>
 </head>
 <body>
 

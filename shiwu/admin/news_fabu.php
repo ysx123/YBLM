@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../CSS/backstage.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/fabu.css">
 <script type="text/javascript" src="../JS/jquery.min.js"></script>
-<title>美食--动态发布</title>
+<title>YBLM--产品发布</title>
 </head>
 <body>
 
@@ -21,14 +21,14 @@
 	<form id="news_fabu" name="news_fabu" method="post" action="news_fabu_ok.php" onsubmit="return checkinfo()"  enctype="multipart/form-data">
 		<table class="news_table" cellspacing="0" cellpadding="0">
 			<tr>
-		    	<td class="word" colspan="3">发布动态</td>
+		    	<td class="word" colspan="3">产品发布</td>
 		    </tr>
 		    
 		    <tr>
-		    	<td class="word">动态类型：</td>
+		    	<td class="word">发布类型：</td>
 		        <td colspan="2">
 		        <select name="news_type" id="news_type">
-		        	<option selected="selected">-动态类型-</option>
+		        	<option selected="selected">-产品类型-</option>
 			            <?php
 			            	$rs=array();
 			            	$sql="select * from menu_type";
@@ -42,17 +42,17 @@
 		    </tr>
 		    
 		    <tr>
-		    	<td class="word">动态标题：</td>
+		    	<td class="word">产品名称：</td>
 		        <td colspan="2"><input name="news_title" type="text" id="news_title" /></td>
 		    </tr>
 		    
 		    <tr>
-		    	<td class="word" height="50">动态图片：</td>
+		    	<td class="word" height="50">产品图片：</td>
 		        <td colspan="2"><input name="news_img" type="file" id="news_img" /></td>
 		    </tr>
 		    
 		    <tr>
-		    	<td class="word">动态描述：</td>
+		    	<td class="word">产品描述：</td>
 		        <td colspan="2"><textarea name="news_des" id="news_des"></textarea></td>
 		    </tr>
 

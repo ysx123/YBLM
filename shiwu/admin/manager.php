@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../CSS/backstage.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/manager.css">
 <script type="text/javascript" src="../JS/jquery.min.js"></script>
-<title>美食--管理</title>
+<title>YBLM--管理</title>
 </head>
 <body>
 

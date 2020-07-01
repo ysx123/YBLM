@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" type="text/css" href="../CSS/head.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/backlogin.css" />
-<title>美食--后台登录</title>
+<title>YBLM--后台登录</title>
 </head>
 <body>
 <?php
@@ -16,14 +16,14 @@
 ?>
 
 <div id="back">
-	<div class="lg"><img src="../images/index/logo.jpg" /></div>
+    <div class="lg"><img src="../images/index/logo.jpg" /></div></br></br>
 	<div class="back_con">烹饪与美食的意义是什么？不是为了生存，不是为了填饱肚子，当然也不是为了钞票。胖子厨师古斯特的名言：Everyone can cook.每个人都可以成为以为一位伟大的艺术家，母婴健康也不例外。在这里，食物不再是生存的基本需要，而是是一种巧妙的创造、科学的艺术，在以呵护母婴健康的目标下制作美食的过程更是舒适而惬意的享受。</div>
 
 	<form name="backlogin" id="backlogin" method="post" onsubmit="return checkinfo()" action="backlogin_ok.php">
 		<div id="back_right">
 			<p class="admin">管理员登陆</p>
 			<div id="user">
-				<p class="p">用户名</p>
+				<p class="p">账号</p>
 				<input class="adminname" type="text" name="adminname">
 			</div>
 

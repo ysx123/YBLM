@@ -21,7 +21,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../CSS/demoadpacks.css">
 
-<title>优贝乐母美食</title>
+<title>YBLM</title>
 </head>
 <body>
 <?php
@@ -53,7 +53,7 @@
     </script>
     
     <div id="caidan">
-        <div class="caidanliaoli">菜单料理</div>
+        <div class="caidanliaoli">热销菜单</div>
         <div class="pic_kuang">
         <div class="grid">
             <figure class="effect-hera">
@@ -104,7 +104,7 @@
 
     <div id="hot">
         <div class="hotname">
-            <p class="pro_n">热销产品</p>
+            <p class="pro_n">菜单</p>
             <p class="eat">在好吃之上，更讲求营养 关心每个家庭最本质的需求</p>
             <div class="co">
                 <ul>
@@ -157,29 +157,29 @@
 
     <div id="news">
         <div class="news_con">
-            <p class="dongtai">动态</p>
+            <p class="dongtai">健康菜品推荐</p>
             <p class="linian">理念健康科学才能脱颖而出</p>
         </div>
         <div class="news_main">
-            <?php  
-                $rs=array();
-                $rs=$db->get_all("select * from hot_product where is_news=1 order by p_time desc limit 0,4");
-                foreach ($rs as $new ) {
-                    echo "<div class='new_kuang'>";
-                    echo "<div class='kuang'><img src='".$new['p_image']."'>";
-                    echo "</div>";
-                    echo "<div class='new_right'>";
-                    echo "<a class='n_name' href='caidan_count.php?food=".$new['p_id']."'>".$new['p_name']."</a>";
-                    echo "<img src='../images/index/hr.png'>";
-                    if(strlen($new['p_description'])>300)
-                        {
-                            echo "<p class='new_con'>".substr($new['p_description'], 0,300)."...</p>";
-                        }else{
-                            echo "<p class='new_con'>".$new['p_description']."</p>";
-                        }
-                    echo "</div>";
-                    echo "</div>";
+            <?php
+            $rs=array();
+            $rs=$db->get_all("select * from hot_product where is_news=1 order by p_time desc limit 0,4");
+            foreach ($rs as $new ) {
+                echo "<div class='new_kuang'>";
+                echo "<div class='kuang'><img src='".$new['p_image']."'>";
+                echo "</div>";
+                echo "<div class='new_right'>";
+                echo "<a class='n_name' href='caidan_count.php?food=".$new['p_id']."'>".$new['p_name']."</a>";
+                echo "<img src='../images/index/hr.png'>";
+                if(strlen($new['p_description'])>300)
+                {
+                    echo "<p class='new_con'>".substr($new['p_description'], 0,300)."...</p>";
+                }else{
+                    echo "<p class='new_con'>".$new['p_description']."</p>";
                 }
+                echo "</div>";
+                echo "</div>";
+            }
             ?>
             <div class="look"><a href="news.php">查看更多</a></div>
         </div>

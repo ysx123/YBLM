@@ -29,14 +29,6 @@
 			</ul>
 		</div>
 
-		<div id="search">
-			<div class="search_big_div">
-				<div class="search_div">
-					<input type="search" name="search">
-					<a href="#">搜索</a>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
 

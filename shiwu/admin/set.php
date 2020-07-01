@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../CSS/backstage.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/manager.css">
 <link rel="stylesheet" type="text/css" href="../CSS/fabu.css">
-<title>美食--编辑</title>
+<title>YBLM--编辑</title>
 </head>
 <body>
 
@@ -51,10 +51,10 @@
 				<td class="word">类别：</td>
 				<td>
 				<select name="leibie" id="leibie">
-		        	<option selected="selected"><?php if($rs["is_news"]==1) echo "新闻动态";
-					else echo "产品";?></option>
-			        <option><?php if($rs["is_news"]==1) echo "产品";
-					else echo "新闻动态";?></option>	
+		        	<option selected="selected"><?php if($rs["is_news"]==1) echo "热销产品";
+					else echo "热销产品";?></option>
+			        <option><?php if($rs["is_news"]==1) echo "普通产品";
+					else echo "普通产品";?></option>
 		        </select></td>
 		    </tr>
 		    

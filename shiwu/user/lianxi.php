@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" type="text/css" href="../CSS/head.css" />
-<title>食尚</title>
+<title>YBLM</title>
 <style>
 #main{
 	width: 100%;

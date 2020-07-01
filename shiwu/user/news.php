@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" type="text/css" href="../CSS/head.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/news.css" />
-<title>食尚---菜单料理</title>
+<title>YBLM--产品</title>
 <style>
 </style>
 </head>

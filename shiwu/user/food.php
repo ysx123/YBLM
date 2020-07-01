@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" type="text/css" href="../CSS/head.css" />
 <link rel="stylesheet" type="text/css" href="../CSS/food.css" />
-<title>食尚---热销产品</title>
+<title>YBLM---热销产品</title>
 </head>
 <body>
 <?php

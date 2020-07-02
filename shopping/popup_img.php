@@ -5,6 +5,7 @@ $a=mysql_fetch_row(mysql_query($query));
 ?>
 <html>
 <head>
+
 	<title><?=$a[1]?></title>
 	<link rel="STYLESHEET" type="text/css" href="css/rsm.css">
 </head>

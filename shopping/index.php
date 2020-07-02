@@ -8,6 +8,7 @@ include "include/functions/updates.php";
 include "shared/query_results_limit.php";
 updates($_GET['goto']);
 ?>
+
 <HTML>
 	<HEAD>
 	<TITLE>мЬиоилЁг</TITLE>
